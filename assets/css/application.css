@@ -29,10 +29,10 @@ body {
 }
 
 .line {
-    border-top: 5px solid #384EFE;
-    width: 50%;
+    border-top: 6px solid #384EFE;
+    width: 150%;
     border-radius: 50%;
-    padding: 20px;
+    padding: 40px;
 }
 
 .btn {
@@ -75,7 +75,7 @@ body {
 
 .left-content {
     position: absolute;
-    top: 40%;
+    top: 35%;
     padding: 50px;
 
 
@@ -165,4 +165,26 @@ body {
     justify-content: space-between;
 
 
+}
+input[type=text]{
+    display: block;
+    padding: 15px;
+    width: 150%;
+    margin-bottom: 35px;
+}
+input[type=button]{
+    margin-top: 10px;
+    margin-left: 45%;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    background-color: #384EFE;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+select{
+    width: 150%;
+    padding: 15px;
 }
